@@ -8,7 +8,7 @@
 - Instead of using a traditional, fixed-class classifier in the Faster R-CNN's detection head, I integrated the outputs of CLIP. The visual features extracted by CLIP's vision encoder are used by the RPN to propose regions. The text query, encoded by CLIP's text encoder, provides the semantic target for the detection head. This allows the model to search for and localize objects based on a free-form text query, not just a predefined list of classes.
 
 
-## KAGGEL NOTEBOOK LINK
+## KAGGLE NOTEBOOK LINK
 
 **https://www.kaggle.com/code/ritijraj/finaldraft**
 
